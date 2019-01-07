@@ -1581,6 +1581,7 @@ header .header-logo a {
   line-height: 1.75;
   text-align: center;
 }
+/*
 .home-social-list::before {
   display: block;
   content: "";
@@ -1591,6 +1592,8 @@ header .header-logo a {
   margin-right: auto;
   margin-bottom: 12px;
 }
+*/
+
 .home-social-list li {
   padding-left: 0;
 }
@@ -1777,26 +1780,29 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #about {
   position: relative;
-  padding: 4.2rem 0 12rem;
-  background-color: #FFFFFF;
+  padding: 15rem 0 12rem;
+  background-color: ##111111;
   min-height: 696px;
   text-align: center;
 }
 #about .about-wrap {
-  max-width: 850px;
+max-width: 850px;
 }
+
 #about span {
-  color: #07617d;
+  color: #FFFFFF;
 }
 #about h3 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #07617d;
+  color: rgba(242, 242, 242, 0.5);
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
 }
+
+/*
 #about h3::before {
   display: block;
   content: "";
@@ -1805,11 +1811,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   background-color: rgba(149, 149, 149, 0.7);
   margin: 0 auto 2.4rem;
 }
+*/
+
 #about .lead {
   font-family: "librebaskerville-bold", serif;
   font-size: 4rem;
   line-height: 1.8;
-  color: #2e383f;
+  color: rgba(242, 242, 242, 0.5);
   margin-top: 6rem;
 }
 
