@@ -1955,7 +1955,7 @@ max-width: 850px;
 }
 #services .services-list .icon i {
   font-size: 5.4rem;
-  color: #f9a828;
+  color: #ffffff;
 }
 #services .services-list .h05 {
   font-size: 1.7rem;
@@ -2032,6 +2032,8 @@ max-width: 850px;
 }
 #portfolio .portfolio-content {
   margin-top: -22.2rem;
+padding-bottom: 22.2rem;
+
 }
 #portfolio .bricks-wrapper:before, 
 #portfolio .bricks-wrapper:after {
